@@ -1,1 +1,22 @@
-# project-ml-intern-3
+第3周（目标：理解并手写线性回归与逻辑回归，学习损失与优化）
+
+- 周一（2.5h）
+  - 学习：线性回归理论（最小二乘、MSE、解析解与梯度下降的差异）。
+  - 实践：用 numpy 从零实现简单线性回归（batch gradient descent），并在 synthetic data 上测试。
+- 周二（2.5h）
+  - 学习：多元线性回归、正则化（Ridge/Lasso）基本概念及其作用。
+  - 实践：实现带 L2 正则化的梯度下降并与 sklearn.linear_model.Ridge 比较系数与误差。
+- 周三（2.5h）
+  - 学习：逻辑回归（sigmoid、交叉熵 loss、概率输出、LR 与线性回归区别）。
+  - 实践：用 numpy 从零实现 logistic regression（可用 batch gradient descent），在 Titanic 或小数据上观察输出概率。
+- 周四（2.5h）
+  - 学习：优化技巧（学习率调节、batch/minibatch、标准化/归一化的重要性、数值稳定性技巧如 log-sum-exp）。
+  - 练习：在手写模型上测试不同学习率与归一化策略的训练曲线。
+- 周五（2.5h）
+  - 学习：模型评估扩展（ROC/AUC、PR 曲线、混淆矩阵），以及不平衡数据处理基本方法。
+  - 实践：绘制 Logistic 回归在不同阈值的 ROC 曲线并计算 AUC。
+- 周六（2.5h）
+  - 整合任务：把手写线性/逻辑回归放入 week3_lr notebook，加入可复现的训练示例与 plot（loss vs epoch）。
+  - push 到 GitHub，更新 README，注明如何运行（Colab 链接）。
+- 周日（1h）复盘
+  - 总结手写模型遇到的 3 个数值/收敛问题与解决方式，写入错题本。
